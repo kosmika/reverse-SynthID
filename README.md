@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python" alt="Python">
   <img src="https://img.shields.io/badge/License-Research-green?style=flat-square" alt="License">
   <img src="https://img.shields.io/badge/Status-Complete-success?style=flat-square" alt="Status">
-  <img src="https://img.shields.io/badge/Accuracy-100%25-brightgreen?style=flat-square" alt="Accuracy">
+  <img src="https://img.shields.io/badge/Accuracy-84%25-brightgreen?style=flat-square" alt="Accuracy">
 </p>
 
 ---
@@ -205,8 +205,7 @@ def detect_synthid(image, codebook):
 ## 📚 References
 
 - [SynthID: Identifying AI-generated images](https://deepmind.google/technologies/synthid/)
-- [Nature Paper: Scalable watermarking for AI-generated images](https://doi.org/10.1038/s41586-024-07754-z)
-- [Spread Spectrum Watermarking](https://en.wikipedia.org/wiki/Digital_watermarking)
+- [Arxiv Paper - SynthID-Image: Image watermarking at internet scale]([https://doi.org/10.1038/s41586-024-07754-z](https://arxiv.org/abs/2510.09263))
 
 ## ⚠️ Disclaimer
 
