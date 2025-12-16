@@ -1,0 +1,66 @@
+{
+  "total_pairs": 123268,
+  "processed": 123268,
+  "failed": 0,
+  "processing_time_seconds": 10215.745551109314,
+  "detection_rates": {
+    "frequency_domain": 95.35321413505532,
+    "color_shifts": 95.3272544374858,
+    "perceptual_hash": 65.97170392964922,
+    "strong_evidence_2plus": 99.9010286530162,
+    "very_strong_3plus": 69.21017620144725
+  },
+  "lsb_stats": {
+    "R": {
+      "mean": 0.01350159721644979,
+      "max": 0.4382184572238659
+    },
+    "G": {
+      "mean": 0.004008631023684418,
+      "max": 0.2898947095114087
+    },
+    "B": {
+      "mean": 0.004637726808367988,
+      "max": 0.2352812577046351
+    }
+  },
+  "frequency_stats": {
+    "mean": 1.3224774993865982,
+    "std": 0.5350459183200592,
+    "min": 0.39525204009762255,
+    "max": 4.15665023208962
+  },
+  "categories": {
+    "background": {
+      "count": 32765,
+      "freq_sum": 33967.608560633445
+    },
+    "action": {
+      "count": 22605,
+      "freq_sum": 22896.63479543091
+    },
+    "time-change": {
+      "count": 18178,
+      "freq_sum": 18690.132635716134
+    },
+    "black_headshot": {
+      "count": 17700,
+      "freq_sum": 30702.047740822807
+    },
+    "hairstyle": {
+      "count": 16012,
+      "freq_sum": 28597.080548062688
+    },
+    "sweet_headshot": {
+      "count": 16008,
+      "freq_sum": 28165.65211372168
+    }
+  },
+  "watermark_indicator_distribution": {
+    "3": 74525,
+    "4": 10789,
+    "2": 37832,
+    "1": 122,
+    "0": 0
+  }
+}

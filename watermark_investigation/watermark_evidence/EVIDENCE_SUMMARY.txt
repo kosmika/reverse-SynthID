@@ -1,0 +1,71 @@
+
+================================================================================
+                    WATERMARK INVESTIGATION - VISUAL EVIDENCE SUMMARY
+================================================================================
+
+This directory contains visual evidence of potential watermarks in AI-edited images.
+
+FILES GENERATED:
+---------------
+
+1. *_bitplanes.png - Bit plane analysis showing LSB and Bit 1 for each RGB channel
+   - Patterns in LSB often indicate hidden data
+   - Uniform noise = natural image
+   - Structured patterns = possible watermark
+
+2. *_difference.png - Difference analysis between original and edited images
+   - Shows spatial differences
+   - LSB difference map highlights watermark locations
+   - Frequency domain differences show spectral modifications
+
+3. *_corners.png - Corner analysis for visible watermarks
+   - Many watermarks are placed in corners
+   - Edge detection highlights text/logos
+
+4. *_histograms.png - Histogram comparisons
+   - Full histogram shows overall color distribution
+   - LSB distribution should be 50/50 in natural images
+   - Deviations suggest data embedding
+
+KEY FINDINGS:
+-------------
+
+1. FREQUENCY DOMAIN MODIFICATIONS
+   - Consistent spectral differences between originals and edits
+   - Suggests DFT/DCT-based watermarking
+
+2. LSB ANOMALIES
+   - Multiple images show LSB distribution deviation from 0.5
+   - Indicates possible LSB steganography or watermarking
+
+3. SYSTEMATIC COLOR SHIFTS
+   - Mean color shifts detected across channels
+   - May indicate additive watermark patterns
+
+4. CORNER ARTIFACTS
+   - High edge density in corners of several images
+   - Possible visible watermarks or AI model signatures
+
+TECHNICAL INTERPRETATION:
+------------------------
+
+The evidence suggests these AI-edited images contain embedded watermarks using
+one or more of the following techniques:
+
+a) LSB (Least Significant Bit) Embedding
+   - Data hidden in the least significant bits of pixel values
+   - Detection: LSB distribution deviation, chi-square tests
+
+b) Spread Spectrum Watermarking
+   - Watermark spread across frequency domain
+   - Detection: Frequency domain analysis
+
+c) DCT-based Watermarking
+   - Modifications in DCT coefficients (JPEG domain)
+   - Detection: Quantization table analysis
+
+d) AI Model Signature
+   - Neural network-specific artifacts
+   - Detection: Pattern recognition in generated regions
+
+================================================================================
