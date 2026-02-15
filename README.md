@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/synthid-watermark.jpeg" alt="SynthID Watermark Analysis" width="100%">
+  <img src="assets/synthid_watermark.png" alt="SynthID Watermark Analysis" width="100%">
 </p>
 
 <h1 align="center">🔍 Reverse-Engineering SynthID</h1>
