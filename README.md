@@ -157,7 +157,7 @@ Input Image → FFT per channel → Estimate Watermark → Subtract → IFFT →
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/reverse-SynthID.git
+git clone https://github.com/aloshdenny/reverse-SynthID.git
 cd reverse-SynthID
 
 python -m venv venv
