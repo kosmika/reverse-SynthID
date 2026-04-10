@@ -366,6 +366,18 @@ print(f"Watermarked: {result.is_watermarked}, Confidence: {result.confidence:.4f
 
 ---
 
+## 👤 Maintainer & Contact
+
+**Alosh Denny**
+AI Watermarking Research · Signal Processing
+
+📧 **Email:** [aloshdenny@gmail.com](mailto:aloshdenny@gmail.com)
+🔗 **GitHub:** https://github.com/aloshdenny
+
+For collaborations, research discussions, or contributions, feel free to reach out or open an issue/PR.
+
+---
+
 ## Disclaimer
 
 This project is for **research and educational purposes only**. SynthID is proprietary technology owned by Google DeepMind. These tools are intended for:
