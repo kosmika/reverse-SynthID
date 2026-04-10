@@ -380,6 +380,19 @@ For collaborations, research discussions, or contributions, feel free to reach o
 
 ---
 
+## Support This Research
+
+This project is maintained independently — no lab funding, no corporate backing.  
+If this work was useful to you or your team, consider supporting continued development:
+
+<a href="https://buymeacoffee.com/aoxo">
+  <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support%20This%20Research-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee">
+</a>
+
+Funds go toward compute costs (GPU hours for new resolution profiles), dataset expansion, and ongoing bypass research.
+
+---
+
 ## Disclaimer
 
 This project is for **research and educational purposes only**. SynthID is proprietary technology owned by Google DeepMind. These tools are intended for:
