@@ -25,6 +25,9 @@ Thumbs.db
 *.pkl
 !artifacts/codebook/*.pkl
 
+# Secrets
+.env
+
 # Temporary
 *.tmp
 *.log
