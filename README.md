@@ -28,7 +28,7 @@ This project reverse-engineers **Google's SynthID** watermarking system - the in
 2. **Built a detector** that identifies SynthID watermarks with 90% accuracy
 3. **Developed a multi-resolution spectral bypass** (V3) that achieves **75% carrier energy drop**, **91% phase coherence drop**, and **43+ dB PSNR** on any image resolution
 
-[VT-OxFF](https://github.com/VT-0xFF) built a really cool visualizer to view the process of how SynthID watermark is added to images [here](https://github.com/VT-0xFF/SynthID-Explained) (also available in repo description)!
+[VT-OxFF](https://github.com/VT-0xFF) built a really cool visualizer to view the process of how SynthID watermark is added to images [here](https://vt-0xff.github.io/SynthID-Explained/) (also available in repo description)!
 
 ---
 
